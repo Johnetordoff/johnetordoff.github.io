@@ -1,7 +1,4 @@
-import browser
 from browser import document, alert, html, window
-browser.load('src/Lib/jqueryui/jquery-1.11.2.min.js')
-browser.load('src/Lib/jqueryui/jquery-ui.min.js')
 
 from jqueryui import jq
 from tabs import Tabs
