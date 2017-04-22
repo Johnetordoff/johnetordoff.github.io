@@ -1,4 +1,5 @@
 from Element import Element, UL, LI, A, DIV, P
+from jqueryui import jq
 
 
 class Tabs(DIV):
@@ -34,11 +35,3 @@ class Tab(LI):
 
         self <= self.label
 
-    """
-    def clicked(self, env):
-        print("?")
-        print(self.parent_tabs.tabs)
-        for tab in self.parent_tabs.tabs:
-            print(tab)
-            tab.panel.style.display = 'block'
-    """

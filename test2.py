@@ -9,21 +9,27 @@ iframe.src = 'https://mfr.osf.io/render?url=https://osf.io/dawsg/?action=downloa
 iframe.style.width = '100%'
 iframe.style.height = '1500px'
 
-def print_0():
+def printX():
     print("???")
 
 
 #iframe.onload = print_0
 
+welcome_msg = 'Please excuse the unkept nature of this site. I am using to test Brython.'
+
 tabs = Tabs('tabs')
-tabs.add_tab('label 1', 'content 1')
-tabs.add_tab('Gdrive', iframe)
+tabs2 = Tabs('tabs2')
+tabs2.add_tab('File', iframe)
+tabs2.add_tab('Folder', iframe.clone())
+
+tabs.add_tab('Welcome', welcome_msg)
+tabs.add_tab('Gdrive', tabs2)
 
 document.body <= tabs
-
 
 jq["tabs"].tabs()
 jq["tabs2"].tabs()
 
+iframe.onload = lambda x : print(iframe.contentWindow.document.body.height)
 
-window.addEventListener('ready', print_0, True)
+window.jQuery(document).ready(lambda x : print('ready'))
