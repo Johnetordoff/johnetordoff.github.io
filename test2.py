@@ -1,9 +1,7 @@
+import browser
 from browser import document, alert, html, window
-__BRYTHON__.imports()
-
-#from jqueryui import jq
+from jqueryui import jq
 from tabs import Tabs
-
 
 iframe = html.IFRAME()
 iframe.id = "iframe0"
