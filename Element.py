@@ -94,6 +94,9 @@ class Element(object):
         self.style.left = "{}px".format(ev.clientX - offsetX)
         self.style.top = "{}px".format(ev.clientY - offsetY)
 
+class JQUI(Element):
+    pass
+
 class A(Element, html.A):
     pass
 

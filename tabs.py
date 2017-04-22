@@ -1,12 +1,13 @@
-from Element import Element, UL, LI, A, DIV, P
+from Element import Element, UL, LI, A, DIV, P, JQUI
 from jqueryui import jq
 
 
-class Tabs(DIV):
+class Tabs(DIV, JQUI):
 
     def __init__(self, id):
+        #self.set_style('background-color', 'lightgreen')
         self.id = id
-        self.list = UL() # .add_class('ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all"')
+        self.list = UL()
         self <= self.list
 
     def add_tab(self, label, content):
