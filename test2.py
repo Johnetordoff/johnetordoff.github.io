@@ -1,7 +1,7 @@
 from browser import document, alert, html, window
 __BRYTHON__.imports()
 
-from jqueryui import jq
+#from jqueryui import jq
 from tabs import Tabs
 
 
