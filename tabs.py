@@ -1,8 +1,5 @@
 from Element import Element, UL, LI, A, DIV, P
 
-from browser import document, alert
-from jqueryui import jq
-
 
 class Tabs(DIV):
 
