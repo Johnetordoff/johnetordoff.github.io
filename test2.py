@@ -4,12 +4,12 @@ from jqueryui import jq
 from tabs import Tabs, JQUI
 import json
 
-response = json.loads(open('https://crossorigin.me/https://api.osf.io/v2/').read())
+#response = json.loads(open('https://crossorigin.me/https://api.osf.io/v2/').read())
 
-print(response)
+#print(response)
 iframe = html.IFRAME()
 iframe.id = "iframe0"
-iframe.src = 'https://mfr.osf.io/render?url=https://osf.io/dawsg/?action=download%26mode=render'
+#iframe.src = 'https://mfr.osf.io/render?url=https://osf.io/dawsg/?action=download%26mode=render'
 iframe.style.width = '100%'
 iframe.style.height = '1500px'
 
@@ -24,7 +24,7 @@ tabs2.add_tab('File', iframe)
 tabs2.add_tab('Folder', iframe.clone())
 
 tabs.add_tab('Gdrive', tabs2)
-tabs.add_tab('Ajax', str(response))
+#tabs.add_tab('Ajax', str(response))
 
 document.body <= tabs
 
