@@ -1,28 +1,77 @@
+
 <!doctype html>
 <html>
-<head>
-    <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script type="text/javascript"
-        src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython.js">
-    </script>
-    <script type="text/python3" src="test2.py"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="src/style.css">
-</head>
+    <head>
 
-<!--
-options:
-  debug: can equal 0,1,2.  more verbose as number increases
-  cache: 'none', 'version', 'browser'.
-         'none' - no caching allowed. a new random number is appended to end of each request
-         'version' - caching allowed for each new brython version
-         'browser' - nothing is appended to request.  A clients browser is responsible for caching actions.
-  pythonpath: a list of additional urls/paths to search for modules
--->
-<body onload="brython({debug:1, cache:'none'})">
+        <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="resume-site/font/stylesheet.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="resume-site/style.css">
+    </head>
+    <body>
+        <!-- Full Page Image Background Carousel Header -->
+        <div id="myCarousel" class="carousel slide">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
 
-</body>
+              <!-- Wrapper for Slides -->
+              <div class="carousel-inner">
+                  <div class="item active">
+                      <!-- Set the first background image using inline CSS below. -->
+                      <div class="fill" style="background-color:blue;"></div>
+                      <div class="carousel-caption">
+                           <h2 style="padding-bottom:30%;" class="animated fadeInDown">JOHN TORDOFF'S WEBSITE</h2>
+                           <p class="animated fadeInUp">THIS IS A WEBSITE I'VE ESTABLISHED AS A VIRTUAL RESUME AND
+                               TO EXPRESS SOME OF MY INTERESTS. PRESS PLAY TO CONTINUE...</p>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <!-- Set the second background image using inline CSS below. -->
+                      <div class="fill" style="background-color:blue;"></div>
+                      <div class="carousel-caption">
+                           <h2 style="padding-bottom:10%;" class="animated fadeInDown">I AM A WEB DEVLOPER</h2>
+                           <p style="text-align:left;" class="animated fadeInUp">
+                               I AM EMPLOYED AT THE CENTER FOR OPEN SCIENCE.<br><br>
+                               I HAVE ONE BACHLOR'S OF SCIENCE DEGREE IN INFORMATION TECHNOLOGY FROM TEMPLE UNIVERSITY.<br><br>
+                               I KNOW:<br>
+
+                               - PYTHON: DJANGO, FLASK<br>
+                               - JAVASCRIPT: JQUERY, KNOCKOUT<br>
+                               - GENERAL: GIT, DOCKER, "CONTINUOUS INTEGRATION"<br>
+
+                      </p>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <!-- Set the third background image using inline CSS below. -->
+                      <div class="fill" style="background-color:blue;"></div>
+                      <div class="carousel-caption">
+                           <h2 style="padding-bottom:20%;" class="animated fadeInDown">HOBBIES INCLUDE:</h2>
+                          <p style="text-align:left;" class="animated fadeInUp">
+                              - COLLECTING VHS TAPES<br>
+                              - ELECTRONICS<br>
+                              - TRIVA<br>
+                              - APPRECIATION OF "THE PHILADELPHIA EAGLES" (THE AMERICAN FOOTBALL TEAM, NOT THE ACTUAL EAGLES RESIDING IN PHILADELPHIA)<br>
+                              - THAT IS ALL<br>
+
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Controls -->
+              <a class="carousel-control" href="#myCarousel" data-slide="prev">
+                  <img src="resume-site/rewind-symbol.png" class="icon-next" style="width: 60px;height: 25px;margin-top:-250px;margin-right:-50px;">
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next" style="background-image:none;font-family: 'vcr_osd_monoregular';
+              font-size: 72px;">
+                  <img src="resume-site/play-symbol.png" class="icon-next" style="width: 175px;height: 25px;margin-top:-250px;"></img>
+              </a>
+        </div>
+    </body>
 </html>

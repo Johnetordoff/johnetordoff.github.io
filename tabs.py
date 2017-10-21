@@ -14,7 +14,6 @@ class Tabs(DIV, JQUI):
         tab = Tab(label, content)
         self.list <= tab
         self <= tab.panel
-
 class Tab(LI):
 
     def __init__(self, label, content):
@@ -30,6 +29,8 @@ class Tab(LI):
             self.panel <= content
 
         self.panel <= self.text0
+        self.panel.set_style('padding', '1px')
+
 
         self.panel.id = 'tabs-{}'.format(str(id(self)))
         self.label.href = '#tabs-{}'.format(str(id(self)))

@@ -80,7 +80,7 @@ class Element(object):
 
     def drag_end(self, ev):
 
-        rect = self.getBoundingClientRect();
+        rect = self.getBoundingClientRect()
         if ev.clientX:
             self.style.left = '{}px'.format(rect.left - 10)
             self.style.top = '{}px'.format(rect.top - 10)

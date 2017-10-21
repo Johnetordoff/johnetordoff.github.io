@@ -3,9 +3,9 @@
 import json
 
 import browser
-from browser import document, ajax
+from browser import document, ajax, window
 
-from utils import bry_func
+jq = window.jQuery
 
 
 def format_links(link_dict):
@@ -117,13 +117,13 @@ for link in doc.get(selector='.pylink'):
 """
 
 
-
 def get(ev):
     def on_complete(ev):
         if req.status == 200:
-            resp_obj = json.loads(req.text)
+            resp_obj= json.loads(req.text)
             if type(resp_obj) == list:
                 resp_obj = {'items' : resp_obj}
+
             format_json(resp_obj, document.body)
         elif req.status == 501:
             url = 'http://crossorigin.me/' + document['input'].value
@@ -143,4 +143,8 @@ def get(ev):
 
 
 document['enter'].bind('click', get)
+def keydown(env):
+    print(env.which)
+    jq(document['play']).addClass('animated slideInLeft')
 
+document.addEventListener('keydown', lambda x: keydown(x))
