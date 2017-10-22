@@ -12,31 +12,46 @@ body {
 .carousel-inner {
   height: 100%;
   background: #000;
+  background: blue;
 }
 
-.carousel-caption{padding-bottom:80px;}
+.carousel-caption{
+padding-bottom:10%;
+}
 
 h2{
     color: white;
     font-size: 60px;
     font-family: 'vcr_osd_monoregular';
+    text-shadow: none;
+    position: fixed;
+    top: 17%;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 23px;
 }
 p{
     padding:10px;
     font-family: 'vcr_osd_monoregular';
-    font-size: 24px;
+    font-size: 18px;
+    text-shadow: none;
+
 }
+
+a{color:red}
 li{
     padding:10px;
     font-family: 'vcr_osd_monoregular';
     font-size: 24px;
+    text-shadow: none;
+
 }
 
 /* Background images are set within the HTML using inline CSS, not here */
 
 .fill {
-    width: 100%;
-    height: 100%;
+    background-color:blue;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -109,3 +124,18 @@ li{
 }
 
 
+body {
+    animation-name: pulse;
+    animation-duration: .07s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: .95;
+    }
+    25% { opacity: .92; }
+    75% {  opacity: .92; }
+}
