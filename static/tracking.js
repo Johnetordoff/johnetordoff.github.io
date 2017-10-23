@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-    tracker = $('#tracker');
+    tracker = $('#tracker').css('margin-left', 100);
 
     function wobble(){
         $('#tracker').css('margin-left', function (index, curValue) {
@@ -9,7 +9,7 @@ $(document).ready(function(){
             }else if(parseInt(curValue, 10) < 0){
                 return parseInt($('#tracker').parent().css('width'), 10) - 20 - Math.random() * 2;
             }else{
-                return parseInt(curValue, 10) + Math.random() * 2;
+                return parseInt(curValue, 10) + (Math.random() >= .5 ? - Math.random() * 2 : Math.random() * 2);
             }
         });
     }
