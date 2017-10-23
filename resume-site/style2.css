@@ -9,12 +9,14 @@ body {
 .item,
 .active {
     height: 100%;
+    background:none;
 }
 
 .carousel-inner {
   height: 100%;
-  background: #000;
   background: blue;
+  background-image: -webkit-radial-gradient(circle, blue, darkblue);
+
 }
 
 .carousel-caption{
