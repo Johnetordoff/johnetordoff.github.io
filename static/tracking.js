@@ -16,7 +16,6 @@ $(document).ready(function(){
     setInterval(wobble, 100);
 
     function play(){
-
         var startTime = new Date().getTime();
         var scoot_interval = setInterval(scoot, 100);
         function scoot(){
@@ -34,6 +33,7 @@ $(document).ready(function(){
 
 
         };
+
     };
     function rewind(){
         var startTime = new Date().getTime();
