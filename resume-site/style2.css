@@ -420,6 +420,7 @@ li{
 .glitch:after {
   content: attr(data-text);
   position: absolute;
+  width: 100%;
 
   left: 1px;
   text-shadow: -1px 0 blue;
@@ -496,10 +497,10 @@ li{
   content: attr(data-text);
   position: absolute;
   left: -4px;
+  width: 100%;
   text-shadow: 1px 0 blue;
   top: 0;
   color: white;
-  background: black;
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
   }
