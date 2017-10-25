@@ -11,11 +11,10 @@
         <link rel="stylesheet" href="resume-site/font/stylesheet.css" type="text/css" charset="utf-8" />
         <link rel="stylesheet" href="resume-site/style2.css">
     </head>
-    <body id="vcr-container" class="vcr-container">
+    <body>
         <!-- Full Page Image Background Carousel Header -->
-        <div id="myCarousel" class="carousel slide screen">
+        <div id="myCarousel" class="carousel slide vcr-container screen">
               <!-- Indicators -->
-
               <table class="carousel-indicators" style="border;border--width: 1px;border-style: solid;width: 100p;height: 10px;border-color: white;">
                   <tbody style="background:none;">
                   <tr>
@@ -26,9 +25,9 @@
                   </tr>
                   </tbody>
               </table>
-
               <!-- Wrapper for Slides -->
               <div class="carousel-inner">
+                <div class="overlay">CH 29</div>
                   <div class="item active">
                       <!-- Set the first background image using inline CSS below. -->
                       <div class="carousel-caption">
@@ -71,12 +70,14 @@
               </div>
 
               <!-- Controls -->
-              <a id="rewindbtn" class="carousel-control left" href="#myCarousel" data-slide="prev" style="background:none">
+            <!--
+              <a id="rewindbtn" class="carousel-control  left" href="#myCarousel" data-slide="prev" style="background:none">
                   <img src="resume-site/rewind-symbol.png" class="icon-next" style="width: 60px;height: 25px;position: fixed;top: 10%;left: 5%;z-index:999;">
-              </a>
+              </a> -->
               <a id="playbtn" class="carousel-control right" href="#myCarousel" data-slide="next" style="background:none">
-                  <img src="resume-site/play-symbol.png" class="icon-next" style="width: 175px;height: 25px;position: fixed;top: 10%;left: 77%;">
+                  <img src="resume-site/play-symbol.png" class="icon-next" style="width: 175px;height: 25px;position: fixed;top: 7%;left: 77%;">
               </a>
         </div>
+
     </body>
 </html>

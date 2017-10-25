@@ -2,7 +2,1261 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b99c5ac-9f94-467f-8634-6298d84f8fc3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/Eagles.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/.bundle-ignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/VFS_import.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/__future__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/_abcoll.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/_codecs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/_collections.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/_csv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/_dummy_thread.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/_functools.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/_imp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/_io.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/_markupbase.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/_random.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/_socket.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/_sre.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/_string.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/_strptime.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/_struct.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/_sysconfigdata.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/_testcapi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/_thread.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/_threading_local.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/_warnings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/_weakref.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/_weakrefset.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/abc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/antigravity.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/argparse.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/base_events.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/base_subprocess.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/brython_events.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/constants.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/coroutines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/events.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/futures.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/http.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/locks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/log.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/proactor_events.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/protocols.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/queues.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/selector_events.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/selectors.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/sslproto.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/streams.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/subprocess.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/tasks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/test_utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/transports.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/unix_events.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/windows_events.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/asyncio/windows_utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/atexit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/base64.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/bdb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/binascii.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/bisect.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/browser/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/browser/ajax.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/browser/html.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/browser/indexed_db.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/browser/local_storage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/browser/markdown.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/browser/object_storage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/browser/session_storage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/browser/svg.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/browser/timer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/browser/websocket.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/browser/webworker.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/calendar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/cmd.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/code.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/codecs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/codeop.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/collections/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/collections/abc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/colorsys.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/concurrent/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/concurrent/futures/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/concurrent/futures/_base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/concurrent/futures/process.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/concurrent/futures/thread.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/concurrent/futures/webworker.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/configparser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/contextlib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/copy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/copyreg.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/csv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/datetime.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/decimal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/difflib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/doctest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/aliases.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp037.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp1006.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp1026.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp1125.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp1140.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp1250.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp1251.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp1252.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp1253.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp1254.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp1255.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp1256.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp1257.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp1258.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp273.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp424.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp437.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp500.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp720.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp737.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp775.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp850.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp852.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp855.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp856.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp857.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp858.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp860.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp861.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp862.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp863.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp864.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp865.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp866.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp869.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp874.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/cp875.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/hp_roman8.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/iso8859_1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/iso8859_10.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/iso8859_11.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/iso8859_13.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/iso8859_14.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/iso8859_15.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/iso8859_16.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/iso8859_2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/iso8859_3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/iso8859_4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/iso8859_5.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/iso8859_6.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/iso8859_7.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/iso8859_8.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/iso8859_9.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/koi8_r.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/koi8_u.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/mac_arabic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/mac_centeuro.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/mac_croatian.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/mac_cyrillic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/mac_farsi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/mac_greek.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/mac_iceland.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/mac_latin2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/mac_roman.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/mac_romanian.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/mac_turkish.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/palmos.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/ptcp154.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/encodings/tis_620.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/errno.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/external_import.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/fnmatch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/formatter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/fractions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/functools.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/gc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/genericpath.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/getopt.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/gettext.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/glob.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/heapq.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/html/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/html/entities.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/html/parser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/http/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/http/cookies.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/imp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/importlib/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/importlib/_bootstrap.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/importlib/abc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/importlib/basehook.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/importlib/machinery.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/importlib/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/inspect.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/io.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/itertools.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/jqueryui/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/jqueryui/css/smoothness/images/animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/jqueryui/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/jqueryui/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/jqueryui/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/jqueryui/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/jqueryui/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/jqueryui/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/jqueryui/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/jqueryui/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/jqueryui/css/smoothness/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/jqueryui/css/smoothness/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/jqueryui/css/smoothness/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/jqueryui/css/smoothness/images/ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/jqueryui/css/smoothness/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/jqueryui/css/smoothness/jquery-ui-1.10.3.custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/jqueryui/css/smoothness/jquery-ui-1.10.3.custom.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/jqueryui/css/smoothness/jquery-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/jqueryui/jquery-1.11.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/jqueryui/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/keyword.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/linecache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/locale.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/logging/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/logging/brython_handlers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/logging/config.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/logging/handlers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/marshal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/multiprocessing/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/multiprocessing/connection.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/multiprocessing/dummy/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/multiprocessing/dummy/connection.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/multiprocessing/pool.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/multiprocessing/process.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/multiprocessing/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/numbers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/opcode.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/operator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/optparse.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/os.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/pdb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/pickle.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/platform.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/posix.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/posixpath.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/pprint.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/profile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/pwd.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/pydoc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/pydoc_data/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/pydoc_data/_pydoc.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/pydoc_data/topics.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/queue.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/re.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/reprlib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/select.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/shutil.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/signal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/site-packages/__future__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/site-packages/docs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/site-packages/header.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/site-packages/highlight.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/site-packages/test_sp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/site-packages/turtle.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/site-packages/ui/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/site-packages/ui/dialog.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/site-packages/ui/menu.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/site-packages/ui/progressbar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/site-packages/ui/slider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/site-packages/ui/widget.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/site.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/socket.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/sre_compile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/sre_constants.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/sre_parse.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/stat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/string.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/struct.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/subprocess.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/sys.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/sysconfig.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/tarfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/tempfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/Sine-1000Hz-300ms.aif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/___simplified_test_int.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/__main__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/audiodata/pluck-alaw.aifc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/audiodata/pluck-pcm16.aiff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/audiodata/pluck-pcm16.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/audiodata/pluck-pcm16.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/audiodata/pluck-pcm24.aiff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/audiodata/pluck-pcm24.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/audiodata/pluck-pcm32.aiff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/audiodata/pluck-pcm32.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/audiodata/pluck-pcm32.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/audiodata/pluck-pcm8.aiff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/audiodata/pluck-pcm8.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/audiodata/pluck-pcm8.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/audiodata/pluck-ulaw.aifc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/audiodata/pluck-ulaw.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/audiotest.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/audiotests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/autotest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/bad_coding.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/bad_coding2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/badcert.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/badkey.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/badsyntax_3131.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/badsyntax_future3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/badsyntax_future4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/badsyntax_future5.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/badsyntax_future6.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/badsyntax_future7.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/badsyntax_future8.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/badsyntax_future9.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/badsyntax_pep3120.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/buffer_tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/capath/4e1295a3.0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/capath/5ed36f99.0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/capath/6e88d7b8.0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/capath/99d0fa06.0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cfgparser.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cfgparser.2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cfgparser.3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/check_soundcard.vbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/big5-utf8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/big5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/big5hkscs-utf8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/big5hkscs.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/cp949-utf8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/cp949.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/euc_jisx0213-utf8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/euc_jisx0213.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/euc_jp-utf8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/euc_jp.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/euc_kr-utf8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/euc_kr.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/gb18030-utf8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/gb18030.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/gb2312-utf8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/gb2312.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/gbk-utf8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/gbk.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/hz-utf8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/hz.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/iso2022_jp-utf8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/iso2022_jp.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/iso2022_kr-utf8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/iso2022_kr.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/johab-utf8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/johab.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/shift_jis-utf8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/shift_jis.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/shift_jisx0213-utf8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/cjkencodings/shift_jisx0213.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/crashers/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/crashers/bogus_code_obj.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/crashers/gc_inspection.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/crashers/infinite_loop_re.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/crashers/mutation_inside_cyclegc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/crashers/recursive_call.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/crashers/trace_at_recursion_limit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/crashers/underlying_dict.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/curses_tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/data/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/datetimetester.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/abs.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/add.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/and.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/base.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/clamp.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/class.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/compare.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/comparetotal.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/comparetotmag.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/copy.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/copyabs.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/copynegate.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/copysign.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddAbs.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddAdd.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddAnd.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddBase.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddCanonical.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddClass.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddCompare.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddCompareSig.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddCompareTotal.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddCompareTotalMag.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddCopy.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddCopyAbs.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddCopyNegate.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddCopySign.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddDivide.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddDivideInt.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddEncode.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddFMA.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddInvert.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddLogB.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddMax.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddMaxMag.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddMin.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddMinMag.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddMinus.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddMultiply.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddNextMinus.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddNextPlus.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddNextToward.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddOr.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddPlus.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddQuantize.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddReduce.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddRemainder.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddRemainderNear.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddRotate.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddSameQuantum.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddScaleB.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddShift.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddSubtract.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddToIntegral.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ddXor.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/decDouble.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/decQuad.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/decSingle.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/divide.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/divideint.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqAbs.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqAdd.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqAnd.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqBase.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqCanonical.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqClass.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqCompare.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqCompareSig.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqCompareTotal.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqCompareTotalMag.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqCopy.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqCopyAbs.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqCopyNegate.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqCopySign.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqDivide.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqDivideInt.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqEncode.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqFMA.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqInvert.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqLogB.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqMax.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqMaxMag.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqMin.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqMinMag.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqMinus.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqMultiply.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqNextMinus.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqNextPlus.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqNextToward.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqOr.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqPlus.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqQuantize.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqReduce.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqRemainder.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqRemainderNear.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqRotate.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqSameQuantum.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqScaleB.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqShift.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqSubtract.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqToIntegral.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dqXor.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dsBase.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/dsEncode.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/exp.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/extra.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/fma.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/inexact.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/invert.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/ln.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/log10.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/logb.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/max.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/maxmag.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/min.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/minmag.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/minus.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/multiply.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/nextminus.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/nextplus.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/nexttoward.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/or.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/plus.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/power.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/powersqrt.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/quantize.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/randomBound32.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/randoms.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/reduce.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/remainder.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/remainderNear.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/rescale.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/rotate.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/rounding.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/samequantum.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/scaleb.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/shift.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/squareroot.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/subtract.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/testall.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/tointegral.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/tointegralx.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/decimaltestdata/xor.decTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/dh512.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/dis_module.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/doctest_aliases.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/double_const.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/empty.vbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/encoded_modules/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/encoded_modules/module_iso_8859_1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/encoded_modules/module_koi8_r.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/fork_wait.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/future_test1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/future_test2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/gdb_sample.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/https_svn_python_org_root.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/inspect_fodder.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/inspect_fodder2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/keycert.passwd.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/keycert.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/keycert2.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/leakers/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/leakers/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/leakers/test_ctypes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/leakers/test_gestalt.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/leakers/test_selftype.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/list_tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/lock_tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/make_ssl_certs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/mapping_tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/memory_watchdog.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/mime.types" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/mock_socket.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/module3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/module4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/mp_fork_bomb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/multibytecodec_support.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/namespace_pkgs/both_portions/foo/one.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/namespace_pkgs/both_portions/foo/two.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/namespace_pkgs/module_and_namespace_package/a_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/namespace_pkgs/module_and_namespace_package/a_test/empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/namespace_pkgs/not_a_namespace_pkg/foo/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/namespace_pkgs/not_a_namespace_pkg/foo/one.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/namespace_pkgs/portion1/foo/one.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/namespace_pkgs/portion2/foo/two.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/namespace_pkgs/project1/parent/child/one.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/namespace_pkgs/project2/parent/child/two.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/namespace_pkgs/project3/parent/child/three.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/nokia.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/nullbytecert.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/nullcert.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/outstanding_bugs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/pickletester.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/profilee.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/pstats.pck" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/pyclbr_input.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/pydoc_mod.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/pydocfodder.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/pystone.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/randv2_32.pck" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/randv2_64.pck" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/randv3.pck" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/re_tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/regrtest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/relimport.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/reperf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/sample_doctest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/sample_doctest_no_docstrings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/sample_doctest_no_doctests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/script_helper.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/seq_tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/sgml_input.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/sha256.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/sndhdrdata/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/sndhdrdata/sndhdr.8svx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/sndhdrdata/sndhdr.aifc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/sndhdrdata/sndhdr.aiff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/sndhdrdata/sndhdr.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/sndhdrdata/sndhdr.hcom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/sndhdrdata/sndhdr.sndt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/sndhdrdata/sndhdr.voc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/sndhdrdata/sndhdr.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/sortperf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/ssl_cert.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/ssl_key.passwd.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/ssl_key.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/ssl_servers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/string_tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/subprocessdata/fd_status.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/subprocessdata/input_reader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/subprocessdata/qcat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/subprocessdata/qgrep.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/subprocessdata/sigchild_ignore.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/support/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test___all__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test___future__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test__locale.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test__osx_support.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_abc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_abstract_numbers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_aifc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_argparse.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_array.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_ast.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_asynchat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_asyncore.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_atexit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_audioop.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_augassign.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_base64.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_bigaddrspace.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_bigmem.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_binascii.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_binhex.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_binop.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_bisect.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_bool.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_buffer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_bufio.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_builtin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_bytes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_bz2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_calendar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_call.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_capi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_cgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_cgitb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_charmapcodec.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_class.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_cmath.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_cmd.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_cmd_line.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_cmd_line_script.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_code.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_code_module.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_codeccallbacks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_codecencodings_cn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_codecencodings_hk.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_codecencodings_iso2022.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_codecencodings_jp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_codecencodings_kr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_codecencodings_tw.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_codecmaps_cn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_codecmaps_hk.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_codecmaps_jp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_codecmaps_kr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_codecmaps_tw.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_codecs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_codeop.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_coding.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_collections.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_colorsys.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_compare.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_compile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_compileall.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_complex.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_concurrent_futures.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_configparser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_contains.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_contextlib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_copy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_copyreg.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_cprofile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_crashers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_crypt.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_csv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_ctypes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_curses.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_datetime.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_dbm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_dbm_dumb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_dbm_gnu.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_dbm_ndbm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_decimal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_decorators.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_defaultdict.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_deque.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_descr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_descrtut.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_devpoll.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_dict.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_dictcomps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_dictviews.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_difflib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_difflib_expect.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_dis.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_distutils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_doctest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_doctest2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_docxmlrpc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_dummy_thread.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_dummy_threading.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_dynamic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/__main__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/PyBanner048.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/audiotest.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_04.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_05.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_06.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_07.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_08.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_09.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_12.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_12a.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_13.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_14.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_15.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_16.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_17.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_18.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_19.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_20.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_21.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_22.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_23.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_24.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_25.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_26.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_27.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_28.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_29.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_30.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_31.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_32.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_33.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_34.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_35.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_36.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_37.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_38.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_39.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_40.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_41.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_42.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_43.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_44.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_45.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/data/msg_46.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/test__encoded_words.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/test__header_value_parser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/test_asian_codecs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/test_defect_handling.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/test_email.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/test_generator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/test_headerregistry.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/test_inversion.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/test_message.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/test_parser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/test_pickleable.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/test_policy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/test_utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_email/torture_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_enumerate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_eof.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_epoll.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_errno.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_exception_variations.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_extcall.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_faulthandler.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_fcntl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_file.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_file_eintr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_filecmp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_fileinput.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_fileio.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_float.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_flufl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_fnmatch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_fork1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_format.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_fractions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_frozen.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_ftplib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_funcattrs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_functools.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_future.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_future3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_future4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_future5.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_gc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_gdb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_generators.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_genericpath.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_genexps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_getargs2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_getopt.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_gettext.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_glob.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_global.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_grammar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_grp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_gzip.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_hash.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_hashlib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_heapq.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_hmac.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_html.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_htmlparser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_http_cookiejar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_http_cookies.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_httplib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_httpservers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_idle.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_imaplib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_imp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_import.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importhooks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/__main__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/abc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/builtin/test_finder.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/builtin/test_loader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/builtin/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/extension/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/extension/test_case_sensitivity.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/extension/test_finder.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/extension/test_loader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/extension/test_path_hook.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/extension/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/frozen/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/frozen/test_finder.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/frozen/test_loader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/import_/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/import_/test___package__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/import_/test_api.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/import_/test_caching.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/import_/test_fromlist.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/import_/test_meta_path.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/import_/test_packages.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/import_/test_path.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/import_/test_relative_imports.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/import_/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/regrtest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/source/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/source/test_abc_loader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/source/test_case_sensitivity.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/source/test_file_loader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/source/test_finder.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/source/test_path_hook.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/source/test_source_encoding.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/source/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/test_abc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/test_api.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/test_locks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/test_util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_importlib/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_index.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_inspect.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_int.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_int_literal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_io.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_ioctl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_ipaddress.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_isinstance.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_iter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_iterlen.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_itertools.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_json/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_json/__main__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_json/test_decode.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_json/test_default.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_json/test_dump.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_json/test_encode_basestring_ascii.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_json/test_fail.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_json/test_float.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_json/test_indent.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_json/test_pass1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_json/test_pass2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_json/test_pass3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_json/test_recursion.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_json/test_scanstring.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_json/test_separators.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_json/test_speedups.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_json/test_tool.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_json/test_unicode.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_keywordonlyarg.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_kqueue.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_largefile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_lib2to3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_linecache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_list.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_listcomps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_locale.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_logging.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_long.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_longexp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_lzma.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_macpath.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_macurl2path.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_mailbox.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_mailcap.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_marshal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_math.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_memoryio.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_memoryview.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_metaclass.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_mimetypes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_minidom.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_mmap.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_module.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_modulefinder.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_msilib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_multibytecodec.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_multiprocessing.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_namespace_pkgs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_netrc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_nis.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_nntplib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_normalization.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_ntpath.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_numeric_tower.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_opcodes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_openpty.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_operator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_optparse.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_os.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_ossaudiodev.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_osx_env.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_parser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pdb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_peepholer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pep247.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pep263.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pep277.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pep292.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pep3120.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pep3131.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pep3151.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pep352.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pep380.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pickle.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pickletools.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pipes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pkg.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pkgimport.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pkgutil.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_platform.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_plistlib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_poll.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_popen.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_poplib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_posix.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_posixpath.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pow.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pprint.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_print.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_profile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_property.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pstats.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pty.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pulldom.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pwd.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_py_compile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pyclbr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pydoc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_pyexpat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_queue.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_quopri.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_raise.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_random.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_range.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_re.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_readline.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_reprlib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_resource.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_richcmp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_rlcompleter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_robotparser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_runpy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_sax.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_sched.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_scope.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_select.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_set.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_setcomps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_shelve.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_shlex.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_shutil.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_signal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_site.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_slice.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_smtpd.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_smtplib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_smtpnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_sndhdr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_socket.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_socketserver.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_sort.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_sqlite.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_ssl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_startfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_stat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_strftime.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_string.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_stringprep.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_strlit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_strptime.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_strtod.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_struct.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_structmembers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_structseq.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_subprocess.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_sunau.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_sundry.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_super.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_support.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_symtable.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_syntax.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_sys.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_sys_setprofile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_sys_settrace.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_sysconfig.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_syslog.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_tarfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_tcl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_telnetlib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_tempfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_textwrap.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_thread.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_threaded_import.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_threadedtempfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_threading.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_threading_local.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_threadsignals.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_time.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_timeit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_timeout.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_tk.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_tokenize.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_tools.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_trace.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_traceback.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_ttk_guionly.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_ttk_textonly.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_tuple.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_typechecks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_types.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_ucn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_unary.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_unicode.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_unicode_file.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_unicodedata.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_unittest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_univnewlines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_unpack.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_unpack_ex.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_urllib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_urllib2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_urllib2_localnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_urllib2net.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_urllib_response.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_urllibnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_urlparse.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_userdict.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_userlist.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_userstring.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_uu.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_uuid.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_venv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_wait3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_wait4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_warnings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_wave.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_weakref.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_weakset.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_webbrowser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_winreg.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_winsound.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_with.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_wsgiref.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_xdrlib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_xml_dom_minicompat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_xml_etree.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_xml_etree_c.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_xmlrpc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_xmlrpc_net.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_zipfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_zipfile64.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_zipimport.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_zipimport_support.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/test_zlib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/testcodec.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/tf_inherit_check.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/threaded_import_hangers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/time_hashlib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/tracedmodules/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/tracedmodules/testmod.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/warning_tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/win_console_handler.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/xmltestdata/simple-ns.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/xmltestdata/simple.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/xmltestdata/test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/xmltestdata/test.xml.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/test/xmltests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/textwrap.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/this.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/threading.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/time.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/timeit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/token.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/tokenize.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/traceback.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/types.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/__main__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/case.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/loader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/mock.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/result.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/runner.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/signals.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/suite.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/_test_warnings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/dummy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/support.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/test_assertions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/test_break.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/test_case.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/test_discovery.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/test_functiontestcase.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/test_loader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/test_program.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/test_result.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/test_runner.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/test_setups.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/test_skipping.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/test_suite.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/testmock/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/testmock/support.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/testmock/testcallable.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/testmock/testhelpers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/testmock/testmagicmethods.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/testmock/testmock.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/testmock/testpatch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/testmock/testsentinel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/test/testmock/testwith.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/unittest/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/urllib/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/urllib/error.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/urllib/parse.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/urllib/request.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/uuid.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/warnings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/weakref.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/webbrowser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/xml/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/xml/dom/NodeFilter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/xml/dom/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/xml/dom/domreg.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/xml/dom/expatbuilder.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/xml/dom/minicompat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/xml/dom/minidom.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/xml/dom/pulldom.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/xml/dom/xmlbuilder.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/xml/etree/ElementInclude.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/xml/etree/ElementPath.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/xml/etree/ElementTree.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/xml/etree/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/xml/etree/cElementTree.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/xml/parsers/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/xml/parsers/expat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/xml/sax/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/xml/sax/_exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/xml/sax/expatreader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/xml/sax/handler.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/xml/sax/saxutils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/xml/sax/xmlreader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/zipfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lib/zlib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/brython.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/brython_builtins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/brython_dist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/brython_loader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/builtin_modules.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/builtins_docstrings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js_objects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/_ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/_base64.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/_jsre.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/_multiprocessing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/_posixsubprocess.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/_profile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/_svg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/_sys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/builtins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/crypto_js/rollups/aes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/crypto_js/rollups/hmac-md5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/crypto_js/rollups/hmac-ripemd160.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/crypto_js/rollups/hmac-sha1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/crypto_js/rollups/hmac-sha224.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/crypto_js/rollups/hmac-sha256.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/crypto_js/rollups/hmac-sha3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/crypto_js/rollups/hmac-sha384.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/crypto_js/rollups/hmac-sha512.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/crypto_js/rollups/md5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/crypto_js/rollups/pbkdf2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/crypto_js/rollups/rabbit-legacy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/crypto_js/rollups/rabbit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/crypto_js/rollups/rc4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/crypto_js/rollups/ripemd160.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/crypto_js/rollups/sha1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/crypto_js/rollups/sha224.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/crypto_js/rollups/sha256.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/crypto_js/rollups/sha3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/crypto_js/rollups/sha384.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/crypto_js/rollups/sha512.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/crypto_js/rollups/tripledes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/dis.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/hashlib.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/long_int.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/math.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/modulefinder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/random.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/local_storage_fs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/py2js.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/py_VFS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/py_builtin_functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/py_bytes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/py_complex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/py_dict.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/py_dom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/py_exceptions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/py_float.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/py_generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/py_import.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/py_import_hooks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/py_int.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/py_list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/py_long_int.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/py_object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/py_range_slice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/py_set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/py_string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/py_type.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/py_utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/stdlib_paths.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/unicode.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/version_info.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web_workers/import.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web_workers/multiprocessing.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resume-site/style.css" afterPath="$PROJECT_DIR$/resume-site/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resume-site/style2.css" afterPath="$PROJECT_DIR$/resume-site/style2.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,21 +1271,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="tracking.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/tracking.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="317">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -40,12 +1284,17 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state relative-caret-position="415">
+              <caret line="77" column="130" lean-forward="false" selection-start-line="77" selection-start-column="130" selection-end-line="77" selection-end-column="130" />
               <folding>
                 <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1508893450000" expanded="false" signature="4177:4192" ph="..." />
+                <marker date="1508893450000" expanded="false" signature="4279:4350" ph="..." />
               </folding>
             </state>
           </provider>
@@ -54,8 +1303,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resume-site/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="56" column="9" lean-forward="false" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="9" />
+            <state relative-caret-position="192">
+              <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -64,8 +1313,8 @@
       <file leaf-file-name="style2.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resume-site/style2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2505">
-              <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+            <state relative-caret-position="547">
+              <caret line="203" column="38" lean-forward="false" selection-start-line="203" selection-start-column="38" selection-end-line="203" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -82,21 +1331,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>jq</find>
-      <find>tab_num</find>
-      <find>print</find>
-      <find>tabs</find>
-      <find>on_message</find>
-      <find>message</find>
-      <find>sid=</find>
-      <find>sid</find>
-      <find>mlp</find>
-      <find>cytu</find>
       <find>ART</find>
       <find>Shelob</find>
       <find>Shelob_get</find>
       <find>atti</find>
-      <find>style</find>
       <find>addEventListener</find>
       <find>keydown</find>
       <find>bry_func</find>
@@ -108,10 +1346,21 @@
       <find>width</find>
       <find>container</find>
       <find>overlay</find>
-      <find>overlay-anim</find>
       <find>act</find>
       <find>animated</find>
       <find>turn-on</find>
+      <find>animation-name:</find>
+      <find>style2</find>
+      <find>style</find>
+      <find>fadeInRight</find>
+      <find>overlay-anim</find>
+      <find>text-shadow</find>
+      <find>indic</find>
+      <find>borderShadow</find>
+      <find>textShadow</find>
+      <find>ov</find>
+      <find>position</find>
+      <find>pos</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -132,8 +1381,8 @@
         <option value="$PROJECT_DIR$/page.py" />
         <option value="$PROJECT_DIR$/resume-site/sass/screen.scss" />
         <option value="$PROJECT_DIR$/src/style.css" />
-        <option value="$PROJECT_DIR$/resume-site/style.css" />
         <option value="$PROJECT_DIR$/static/tracking.js" />
+        <option value="$PROJECT_DIR$/resume-site/style.css" />
         <option value="$PROJECT_DIR$/resume-site/style2.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
@@ -159,8 +1408,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -432,17 +1681,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="727" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24140625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24140625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -480,14 +1730,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style.css" />
     <entry file="file://$PROJECT_DIR$/Element.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -523,14 +1766,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style.css" />
     <entry file="file://$PROJECT_DIR$/Element.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -573,14 +1809,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style.css" />
     <entry file="file://$PROJECT_DIR$/Element.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -602,14 +1831,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style.css" />
     <entry file="file://$PROJECT_DIR$/Element.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -624,13 +1846,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/async.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/async.js" />
     <entry file="file://$PROJECT_DIR$/Browser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -646,13 +1862,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jquery.js" />
-    <entry file="file://$PROJECT_DIR$/src/brython.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103005">
-          <caret line="6867" column="122" lean-forward="false" selection-start-line="6867" selection-start-column="120" selection-end-line="6867" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/brython.js" />
     <entry file="file://$PROJECT_DIR$/jquery-1.11.2.min.js" />
     <entry file="file://$PROJECT_DIR$/test2.py" />
     <entry file="file://$PROJECT_DIR$/test_ajax.py">
@@ -662,13 +1872,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lib/jqueryui/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lib/jqueryui/__init__.py" />
     <entry file="file://$PROJECT_DIR$/tabs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -758,46 +1962,44 @@
     <entry file="file://$PROJECT_DIR$/resume-site/stylesheets/print.css" />
     <entry file="file://$PROJECT_DIR$/resume-site/config.rb" />
     <entry file="file://$PROJECT_DIR$/resume-site/sass/screen.scss" />
-    <entry file="file://$PROJECT_DIR$/src/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style.css" />
     <entry file="file://$PROJECT_DIR$/static/tracking.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="317">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resume-site/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="9" lean-forward="false" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="9" />
+        <state relative-caret-position="192">
+          <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resume-site/style2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2505">
-          <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+        <state relative-caret-position="547">
+          <caret line="203" column="38" lean-forward="false" selection-start-line="203" selection-start-column="38" selection-end-line="203" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state relative-caret-position="415">
+          <caret line="77" column="130" lean-forward="false" selection-start-line="77" selection-start-column="130" selection-end-line="77" selection-end-column="130" />
           <folding>
             <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1508893450000" expanded="false" signature="4177:4192" ph="..." />
+            <marker date="1508893450000" expanded="false" signature="4279:4350" ph="..." />
           </folding>
         </state>
       </provider>
