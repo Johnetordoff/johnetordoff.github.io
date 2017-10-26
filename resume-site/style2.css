@@ -20,7 +20,7 @@ body {
 
 #myCarousel {
   background-color: blue;
-  background-image: radial-gradient(Aqua 0%, transparent 100%, darkblue 100%);
+  background-image: radial-gradient(RoyalBlue  0%, Navy 100%);
 }
 
 .carousel-caption{
