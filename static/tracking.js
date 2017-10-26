@@ -85,9 +85,10 @@ $(document).ready(function(){
                 value += 0.065;
                 $('#tv').css("opacity", value);
             };
+            $('#carousel-inner').removeClass('screen');
+
             if(rightTracks % 20 == 0){
                 $('#playbtn').click();
-                $('#myCarousel').addClass('screen');
                 var interval = setInterval(function(){
                     var value = parseFloat($('#tv').css("opacity"));
                     value -= 0.05;
@@ -97,10 +98,11 @@ $(document).ready(function(){
                     }
                     //do whatever here..
                 }, 20);
+                $('#carousel-inner').addClass('screen');
             }
         }
         console.log(env.which);
-       $('#myCarousel').removeClass('screen');
+       $('.screen').click();
 
     });
 

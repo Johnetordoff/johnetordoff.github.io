@@ -209,16 +209,9 @@ li{
 }
 
 .screen {
-    background-color: black;
-   color: black;
   animation: turn-on 4s linear;
 }
 
-.screen:active {
-    background-color: black;
-   color: black;
-  animation: turn-on 4s linear;
-}
 
 .overlay {
   animation: textShadow 15s linear;
