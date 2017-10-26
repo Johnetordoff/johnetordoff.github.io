@@ -17,7 +17,8 @@ body {
 }
 
 #myCarousel {
-  background-image: -webkit-radial-gradient(circle, blue, darkblue);
+  background-color: blue;
+  background-image: radial-gradient(Aqua 0%, transparent 100%, darkblue 100%);
 }
 
 .carousel-caption{
@@ -41,6 +42,9 @@ h2{
 }
 
 .carousel-indicators{
+   position: fixed;
+    bottom: 20%;
+    width: 45%;
 }
 
 #tracker{
@@ -52,11 +56,10 @@ p{
     animation: textShadow 4s infinite;
 
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'vcr_osd_monoregular';
     text-shadow: none;
     position: relative;
-    top: 25%;
     left: 0%;
     margin: 0 auto;
     z-index: 999;
@@ -80,10 +83,6 @@ li{
  */
 
 
-.fadeInRight {
-  animation: turn-on 4s linear;
-
-}
 
 @keyframes flicker {
   20% {
@@ -199,8 +198,8 @@ li{
   position: absolute;
   font-family: 'vcr_osd_monoregular';
 
-  top: 20px;
-  left: 20px;
+  top: 10%;
+  left: 5%;
   font-size: 38px;
   pointer-events: none;
   animation: overlay-anim 10s linear;
@@ -208,6 +207,14 @@ li{
 }
 
 .screen {
+    background-color: black;
+   color: black;
+  animation: turn-on 4s linear;
+}
+
+.screen:active {
+    background-color: black;
+   color: black;
   animation: turn-on 4s linear;
 }
 
