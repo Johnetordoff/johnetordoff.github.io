@@ -37,6 +37,7 @@ p{
     font-family: 'vcr_osd_monoregular';
     font-size: 18px;
     text-shadow: none;
+    pointer-events: none;
 
 }
 

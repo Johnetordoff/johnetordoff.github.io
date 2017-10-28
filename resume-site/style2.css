@@ -36,7 +36,7 @@ h2{
     font-family: 'vcr_osd_monoregular';
     text-shadow: none;
     position: relative;
-    top: -12.5%;
+    top: 0%;
     left: 0%;
     margin: 0 auto;
     z-index: 999;
@@ -51,7 +51,10 @@ h2{
 
 #tracker{
     animation: borderShadow 40s infinite;
+}
 
+img{
+    pointer-events: none;
 }
 
 p{

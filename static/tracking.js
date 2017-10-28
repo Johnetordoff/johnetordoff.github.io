@@ -72,6 +72,11 @@ $(document).ready(function(){
             rewind()
             rightTracks--;
             leftTracks++;
+            var value = parseFloat($('#tv').css("opacity"));
+            if(value<1){
+                value -= 0.065;
+                $('#tv').css("opacity", value);
+            };
             if(leftTracks % 8 == 0){
                 $('#rewindbtn').click()
             }
@@ -84,6 +89,7 @@ $(document).ready(function(){
             if(value<1){
                 value += 0.065;
                 $('#tv').css("opacity", value);
+                $('#tv').css("animated", value);
             };
             $('#carousel-inner').removeClass('screen');
 
