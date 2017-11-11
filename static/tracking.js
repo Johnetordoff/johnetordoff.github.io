@@ -1,3 +1,6 @@
+var rightTracks = 0;
+var leftTracks = 0;
+
 
 $(document).ready(function(){
     tracker = $('#tracker').css('margin-left', 100);
@@ -65,9 +68,7 @@ $(document).ready(function(){
     $('#playbtn').click(play);
     $('#rewindbtn').click(rewind);
 
-    var rightTracks = 0;
-    var leftTracks = 0;
-    document.addEventListener('keydown', function(env){
+    document.addEventListener('keyup', function(env){
         if(env.which == 37){
             rewind()
             rightTracks--;
@@ -91,10 +92,10 @@ $(document).ready(function(){
                 $('#tv').css("opacity", value);
                 $('#tv').css("animated", value);
             };
-            $('#carousel-inner').removeClass('screen');
-
+            $("#myCarousel").removeClass('screen');
             if(rightTracks % 20 == 0){
                 $('#playbtn').click();
+                $("#myCarousel").addClass('screen');
                 var interval = setInterval(function(){
                     var value = parseFloat($('#tv').css("opacity"));
                     value -= 0.05;
@@ -102,13 +103,10 @@ $(document).ready(function(){
                     if($('#tv').css("opacity") <= 0){
                         clearInterval(interval);
                     }
-                    //do whatever here..
                 }, 20);
-                $('#carousel-inner').addClass('screen');
             }
         }
         console.log(env.which);
-       $('.screen').click();
 
     });
 
@@ -122,7 +120,7 @@ $(document).ready(function(){
 		sampleIndex = 0,
 		scanOffsetY = 0,
 		scanSize = 0,
-		FPS = 50,
+		FPS = 12,
 		scanSpeed = FPS * 15, // 15 seconds from top to bottom
 		SAMPLE_COUNT = 10;
 
@@ -145,7 +143,6 @@ $(document).ready(function(){
 		var intensity = [];
 		var random = 0;
 		var factor = h / 150;
-
 		var intensityCurve = [];
 		for(var i = 0; i < Math.floor(h / factor) + factor; i++)
 			intensityCurve.push(Math.floor(Math.random() * 50));
@@ -196,6 +193,9 @@ $(document).ready(function(){
 
 		scanOffsetY += (canvas.height / scanSpeed);
 		if(scanOffsetY > canvas.height) scanOffsetY = -(scanSize / 2);
+
+        console.log(FPS);
+        console.log(rightTracks);
 
 		window.setTimeout(function() {
 			window.requestAnimationFrame(render);
