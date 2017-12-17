@@ -21,6 +21,10 @@ body {
 #myCarousel {
   background-color: blue;
   background-image: radial-gradient(RoyalBlue  0%, Navy 100%);
+  padding-top:40px;
+  margin-right:20%;
+  margin-left:60px;
+  padding-bottom:10%;
 }
 
 .carousel-caption{
@@ -44,8 +48,12 @@ h2{
 
 .carousel-indicators{
    position: fixed;
-    bottom: 20%;
-    width: 45%;
+   bottom: 20%;
+   width: 45%;
+   border-width: 3px;
+   border-style: solid;
+   height: 10px;
+   border-color: white;
 }
 
 #tracker{
@@ -215,6 +223,7 @@ li{
 }
 
 .screen {
+    padding: 50px;
     animation: turn-on 5s linear;
 }
 
@@ -379,3 +388,38 @@ li{
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
   }
+
+.placard{
+    background-image: url("../static/Fine-Wood-Textures-1.jpg");
+    border: 3px solid tan;
+    color: white;
+    position:fixed;
+    top:10%;
+    left:84%;
+    z-index:99999999999;
+    width: 12%;
+    border-radius: 5%;
+    font-size: 1.2em;
+    text-shadow: 1px 1px tan;
+    text-align: center;
+    padding: 10px;
+}
+
+#frameImg {
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:999;
+}
+
+#tv {
+    position: fixed;
+    top: 10%;
+    left: 5%;
+    width: 85%;
+    height: 85%;
+    z-index: 500;
+    opacity: 0;
+    pointer-events: none;
+}
+

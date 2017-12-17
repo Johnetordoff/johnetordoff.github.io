@@ -70,8 +70,7 @@ $(document).ready(function(){
 
     document.addEventListener('keyup', function(env){
         if(env.which == 37){
-            rewind()
-            rightTracks--;
+            rewind();
             leftTracks++;
             var value = parseFloat($('#tv').css("opacity"));
             if(value<1){
@@ -83,7 +82,7 @@ $(document).ready(function(){
             }
         }
         if(env.which == 39){
-            play()
+            play();
             rightTracks++;
             leftTracks--;
             var value = parseFloat($('#tv').css("opacity"));
@@ -93,7 +92,12 @@ $(document).ready(function(){
                 $('#tv').css("animated", value);
             };
             $("#myCarousel").removeClass('screen');
-            if(rightTracks % 20 == 0){
+            if(rightTracks < 0){
+                rightTracks = 0;
+            }
+            console.log(rightTracks);
+            if(rightTracks % 20 == 0 && rightTracks != 0){
+                rightTracks = 0;
                 $('#playbtn').click();
                 $("#myCarousel").addClass('screen');
                 var interval = setInterval(function(){
@@ -205,3 +209,7 @@ $(document).ready(function(){
 	window.requestAnimationFrame(render);
 })();
 });
+
+setTimeout(function(){
+   $(".overlay").hide();
+},5000); // 5 second delay
