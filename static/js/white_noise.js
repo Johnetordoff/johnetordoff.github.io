@@ -10,7 +10,7 @@ $(document).ready(function(){
             sampleIndex = 0,
             scanOffsetY = 0,
             scanSize = 0,
-            FPS = 12,
+            FPS = 60,
             scanSpeed = FPS * 15, // 15 seconds from top to bottom
             SAMPLE_COUNT = 10;
 

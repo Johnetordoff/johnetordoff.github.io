@@ -42,10 +42,7 @@ $(document).ready(function(){
                     return parseInt(curValue, 10) +  Math.random() * 5;
                 }
             });
-
-
         };
-
     };
     function rewind(){
         var startTime = new Date().getTime();
