@@ -1,0 +1,15 @@
+.archive-banner{position:fixed;top:0;left:0;right:0;z-index:2147483647;display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 16px;padding:7px 12px;background:#05072ae8;color:#fff;font:11px/1.5 Arial,sans-serif;border-bottom:1px solid #5267a3}
+.archive-banner a{color:#fff;text-decoration:underline}
+.archive-banner a:focus-visible,.placard a:focus-visible{outline:2px solid #fff;outline-offset:4px}
+.placard a{display:inline-block;padding:4px 10px}
+@media(max-width:700px){
+ #frameImg{display:none}
+ #myCarousel{margin:72px 12px 0;padding-top:0;height:calc(100dvh -198px)}
+ .carousel-caption{position:absolute;top:7%;left:6%;right:6%;bottom:auto;padding:0;text-align:left}
+ .carousel-caption h2{font-size:clamp(25px,7vw,43px);line-height:1.15;margin-bottom:15px}
+ .carousel-caption p{font-size:13px!important;line-height:1.4;margin-bottom:7px}
+ .placard{top:auto;bottom:14px;left:12px;width:calc(100% - 24px);padding:7px;font-size:13px;border-radius:0}
+ .carousel-indicators{left:15%;bottom:120px;width:65%;margin-left:0}
+ #tv{top:72px;left:12px;width:calc(100% - 24px);height:calc(100dvh - 198px)}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
