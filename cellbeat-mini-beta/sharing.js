@@ -47,6 +47,78 @@
     return {win: win, doc: doc};
   }
 
+  function installTrackerBetaUX() {
+    var t;
+    try { t = tracker(); } catch (error) { return; }
+    var doc = t.doc, win = t.win, grid = doc.getElementById("grid");
+    if (!grid) return;
+
+    if (!doc.getElementById("cellbeatMiniBetaUXStyle")) {
+      var style = doc.createElement("style");
+      style.id = "cellbeatMiniBetaUXStyle";
+      style.textContent = "#programDialog{padding:12px 14px 14px!important;width:min(420px,calc(100vw - 20px))!important;margin:auto}#programDialog form{display:grid;gap:8px}#programDialog h2,#programDialog p{margin:0}#programDialog .program-rule{margin:0;gap:8px}#programDialog .actions{margin-top:2px}";
+      doc.head.appendChild(style);
+    }
+
+    if (grid.dataset.betaDoubleClickProgramming === "true") return;
+    grid.dataset.betaDoubleClickProgramming = "true";
+    var pendingCell = null, pendingTimer = null;
+
+    function controlCell(cell) {
+      if (!cell || !cell.classList || !cell.classList.contains("cell")) return false;
+      var type = cell.dataset.type || "";
+      return type && ["empty", "tone", "sample"].indexOf(type) < 0;
+    }
+
+    function replayClick(cell) {
+      if (!cell || !cell.isConnected) return;
+      var event = new win.MouseEvent("click", {bubbles:true, cancelable:true, view:win, detail:1});
+      event.__cellbeatBetaReplay = true;
+      cell.dispatchEvent(event);
+    }
+
+    function clearPending() {
+      if (pendingTimer) win.clearTimeout(pendingTimer);
+      pendingTimer = null; pendingCell = null;
+    }
+
+    function openProgramming(cell) {
+      clearPending();
+      var programButton = doc.getElementById("programToolBtn");
+      if (!programButton) return;
+      if (programButton.getAttribute("aria-pressed") !== "true") programButton.click();
+      replayClick(cell);
+    }
+
+    grid.addEventListener("click", function (event) {
+      if (event.__cellbeatBetaReplay) return;
+      var cell = event.target.closest ? event.target.closest(".cell") : null;
+      if (!controlCell(cell) || !grid.contains(cell)) return;
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      if (pendingTimer && pendingCell === cell) {
+        openProgramming(cell);
+        return;
+      }
+      if (pendingTimer && pendingCell && pendingCell !== cell) replayClick(pendingCell);
+      clearPending();
+      pendingCell = cell;
+      pendingTimer = win.setTimeout(function () {
+        var target = pendingCell;
+        clearPending();
+        replayClick(target);
+      }, 240);
+    }, true);
+
+    grid.addEventListener("dblclick", function (event) {
+      var cell = event.target.closest ? event.target.closest(".cell") : null;
+      if (!controlCell(cell) || !grid.contains(cell)) return;
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      if (pendingCell === cell) openProgramming(cell);
+    }, true);
+  }
+
   function captureCurrentSession() {
     var t = tracker(), captured = null;
     var oldCreate = t.win.URL.createObjectURL, oldClick = t.win.HTMLAnchorElement.prototype.click;
@@ -126,6 +198,7 @@
   document.getElementById("saveCurrentBtn").addEventListener("click", saveCurrent);
   document.getElementById("searchBtn").addEventListener("click", search);
   searchInput.addEventListener("keydown", function (event) { if (event.key === "Enter") { event.preventDefault(); search(); } });
-  frame.addEventListener("load", function () { message(myMessage, "Tracker ready."); });
+  frame.addEventListener("load", function () { installTrackerBetaUX(); message(myMessage, "Tracker ready."); });
+  if (frame.contentDocument && frame.contentDocument.readyState === "complete") installTrackerBetaUX();
   renderLibrary(); refreshMe(); search();
 }());
