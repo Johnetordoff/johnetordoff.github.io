@@ -47,18 +47,46 @@
     return {win: win, doc: doc};
   }
 
+  function resizeTrackerFrame() {
+    var t;
+    try { t = tracker(); } catch (error) { return; }
+    var doc = t.doc;
+    var height = Math.max(
+      doc.body ? doc.body.scrollHeight : 0,
+      doc.documentElement ? doc.documentElement.scrollHeight : 0
+    );
+    if (height > 0) frame.style.height = (height + 4) + "px";
+  }
+
   function installTrackerBetaUX() {
     var t;
     try { t = tracker(); } catch (error) { return; }
     var doc = t.doc, win = t.win, grid = doc.getElementById("grid");
     if (!grid) return;
 
+    var playButton = doc.getElementById("playBtn");
+    var demoButton = doc.getElementById("demoBtn");
+    if (playButton) playButton.setAttribute("aria-label", "Play or stop the loaded song");
+    if (demoButton) {
+      demoButton.textContent = "Reload Default Song";
+      demoButton.setAttribute("aria-label", "Reload the default song and start playback");
+    }
+
     if (!doc.getElementById("cellbeatMiniBetaUXStyle")) {
       var style = doc.createElement("style");
       style.id = "cellbeatMiniBetaUXStyle";
-      style.textContent = "#programDialog{padding:12px 14px 14px!important;width:min(420px,calc(100vw - 20px))!important;margin:auto}#programDialog form{display:grid;gap:8px}#programDialog h2,#programDialog p{margin:0}#programDialog .program-rule{margin:0;gap:8px}#programDialog .actions{margin-top:2px}";
+      style.textContent = "#programDialog{padding:12px 14px 14px!important;width:min(420px,calc(100vw - 20px))!important;margin:auto}#programDialog form{display:grid;gap:8px}#programDialog h2,#programDialog p{margin:0;overflow-wrap:anywhere}#programDialog .program-rule{margin:0;gap:8px}#programDialog .actions{margin-top:2px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}#programDialog .actions .btn{min-width:0}.channel-table th,.channel-table td{overflow:hidden;text-overflow:ellipsis}.tools .btn{overflow-wrap:anywhere}@media(max-width:430px){.channel-table{font-size:9px}.channel-table th,.channel-table td{padding:2px 1px}.tools .btn{font-size:9px}}";
       doc.head.appendChild(style);
     }
+
+    resizeTrackerFrame();
+    if (!frame._cellbeatResizeObserver && win.ResizeObserver) {
+      frame._cellbeatResizeObserver = new win.ResizeObserver(function () { resizeTrackerFrame(); });
+      if (doc.documentElement) frame._cellbeatResizeObserver.observe(doc.documentElement);
+      if (doc.body) frame._cellbeatResizeObserver.observe(doc.body);
+    }
+    win.setTimeout(resizeTrackerFrame, 60);
+    win.setTimeout(resizeTrackerFrame, 300);
 
     if (grid.dataset.betaDoubleClickProgramming === "true") return;
     grid.dataset.betaDoubleClickProgramming = "true";
@@ -88,6 +116,7 @@
       if (!programButton) return;
       if (programButton.getAttribute("aria-pressed") !== "true") programButton.click();
       replayClick(cell);
+      win.setTimeout(resizeTrackerFrame, 20);
     }
 
     grid.addEventListener("click", function (event) {
@@ -137,6 +166,7 @@
     input.dispatchEvent(new t.win.Event("change", {bubbles: true}));
     frame.scrollIntoView({behavior: "smooth", block: "start"});
     if (tryPlay) window.setTimeout(function () { var play = t.doc.getElementById("playBtn"); if (play) play.click(); }, 180);
+    window.setTimeout(resizeTrackerFrame, 220);
   }
 
   function saveCurrent() {
@@ -198,7 +228,8 @@
   document.getElementById("saveCurrentBtn").addEventListener("click", saveCurrent);
   document.getElementById("searchBtn").addEventListener("click", search);
   searchInput.addEventListener("keydown", function (event) { if (event.key === "Enter") { event.preventDefault(); search(); } });
-  frame.addEventListener("load", function () { installTrackerBetaUX(); message(myMessage, "Tracker ready."); });
-  if (frame.contentDocument && frame.contentDocument.readyState === "complete") installTrackerBetaUX();
+  frame.addEventListener("load", function () { installTrackerBetaUX(); resizeTrackerFrame(); message(myMessage, "Tracker ready."); });
+  window.addEventListener("resize", resizeTrackerFrame);
+  if (frame.contentDocument && frame.contentDocument.readyState === "complete") { installTrackerBetaUX(); resizeTrackerFrame(); }
   renderLibrary(); refreshMe(); search();
 }());
