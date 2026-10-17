@@ -1,0 +1,28 @@
+Proprietary License
+All Rights Reserved
+
+Copyright (c) 2026 John Tordoff. All rights reserved.
+
+Cellbeat2, including its source code, documentation, project files, bundled
+project assets, samples, names, concepts, and other original materials in this
+repository, is the exclusive property of John Tordoff.
+
+No license, permission, or other right is granted to any person or entity to use,
+copy, reproduce, modify, adapt, translate, publish, distribute, sublicense, sell,
+resell, lease, rent, host, perform, display, create derivative works from, train
+models on, reverse engineer, decompile, disassemble, or otherwise exploit any
+part of Cellbeat2 or this repository, in whole or in part, without the prior
+express written permission of John Tordoff.
+
+Possession of a copy of this repository or any of its files does not transfer
+ownership and does not grant any license or permission. Any rights not expressly
+granted in a separate written agreement signed by John Tordoff are reserved by
+John Tordoff.
+
+THE SOFTWARE AND MATERIALS ARE PROVIDED, IF AT ALL, "AS IS" AND WITHOUT WARRANTY
+OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO
+EVENT SHALL JOHN TORDOFF BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY
+ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE, MATERIALS, OR ANY USE
+OF OR INABILITY TO USE THEM.
+

@@ -1,0 +1,2864 @@
+{
+  "format": "cellbeat-mini-session",
+  "version": 9,
+  "bpm": 96,
+  "world": {
+    "cols": 8,
+    "rows": 6,
+    "grids": [
+      {
+        "id": 1,
+        "cells": [
+          {
+            "type": "face-right",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "record-start",
+            "note": 0,
+            "mode": "first",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "record-stop",
+            "note": 0,
+            "mode": "every",
+            "n": 11,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 9,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 8,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 7,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "right",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-down",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 8,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 7,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 6,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 7,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "right",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-right",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 6,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 7,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 7,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 9,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-down",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-up",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-left",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "cells": [
+          {
+            "type": "left",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 9,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 7,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 9,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 11,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-left",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "reflect-vertical",
+            "note": 0,
+            "mode": "every",
+            "n": 3,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 7,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 8,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 9,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 7,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-down",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "left",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "reflect-vertical",
+            "note": 0,
+            "mode": "chance",
+            "n": 2,
+            "count": 0,
+            "pair": 0,
+            "seed": 12345
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-down",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 9,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 11,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 7,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 8,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-left",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-right",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-up",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "cells": [
+          {
+            "type": "face-right",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 0,
+            "mode": "every",
+            "n": 2,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 4,
+            "mode": "every",
+            "n": 2,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 6,
+            "mode": "every",
+            "n": 2,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 4,
+            "mode": "every",
+            "n": 2,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "right",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "reflect-vertical",
+            "note": 0,
+            "mode": "every",
+            "n": 3,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-down",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 6,
+            "mode": "every",
+            "n": 2,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "reflect-horizontal",
+            "note": 0,
+            "mode": "every",
+            "n": 2,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 2,
+            "mode": "every",
+            "n": 2,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 4,
+            "mode": "every",
+            "n": 2,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "reflect-vertical",
+            "note": 0,
+            "mode": "skip",
+            "n": 3,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "right",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-right",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 2,
+            "mode": "every",
+            "n": 2,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "reflect-horizontal",
+            "note": 0,
+            "mode": "skip",
+            "n": 3,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 0,
+            "mode": "every",
+            "n": 2,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 4,
+            "mode": "every",
+            "n": 2,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-down",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-up",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-left",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "cells": [
+          {
+            "type": "left",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 2,
+            "mode": "skip",
+            "n": 3,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 0,
+            "mode": "skip",
+            "n": 3,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-left",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "reflect-vertical",
+            "note": 0,
+            "mode": "every",
+            "n": 3,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 0,
+            "mode": "skip",
+            "n": 3,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "reflect-horizontal",
+            "note": 0,
+            "mode": "every",
+            "n": 2,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 2,
+            "mode": "skip",
+            "n": 3,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-down",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "left",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "reflect-vertical",
+            "note": 0,
+            "mode": "skip",
+            "n": 3,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-down",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 0,
+            "mode": "skip",
+            "n": 3,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "reflect-horizontal",
+            "note": 0,
+            "mode": "skip",
+            "n": 3,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 0,
+            "mode": "skip",
+            "n": 3,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-left",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-right",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-up",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "cells": [
+          {
+            "type": "face-right",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 3,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 3,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 3,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 3,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "right",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "reflect-vertical",
+            "note": 0,
+            "mode": "every",
+            "n": 3,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-down",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 3,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 3,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 3,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 3,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "reflect-vertical",
+            "note": 0,
+            "mode": "skip",
+            "n": 3,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "right",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-right",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 3,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 3,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 3,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 3,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-down",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-up",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-left",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "cells": [
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-down",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 2,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 1,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 2,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 0,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-left",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "reflect-vertical",
+            "note": 0,
+            "mode": "every",
+            "n": 3,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-right",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 2,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 1,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 2,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 0,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-down",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "reflect-vertical",
+            "note": 0,
+            "mode": "skip",
+            "n": 3,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-down",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 2,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 1,
+            "mode": "every",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 2,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 0,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-left",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-right",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-up",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "cells": [
+          {
+            "type": "face-right",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 11,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 2,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 9,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 2,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-down",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "reflect-vertical",
+            "note": 0,
+            "mode": "every",
+            "n": 3,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-down",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 9,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 2,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 6,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 2,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-left",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "reflect-vertical",
+            "note": 0,
+            "mode": "chance",
+            "n": 2,
+            "count": 0,
+            "pair": 0,
+            "seed": 12346
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-right",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 6,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 2,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "tone",
+            "note": 11,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "sample",
+            "note": 2,
+            "mode": "always",
+            "n": 4,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-down",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-up",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "face-left",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          },
+          {
+            "type": "empty",
+            "note": 0,
+            "mode": "always",
+            "n": 1,
+            "count": 0,
+            "pair": 0
+          }
+        ]
+      }
+    ],
+    "nextGridId": 8,
+    "nextPairId": 1,
+    "robot": {
+      "gridId": 1,
+      "x": 0,
+      "y": 0,
+      "dir": 1
+    },
+    "home": {
+      "gridId": 1,
+      "x": 0,
+      "y": 0,
+      "dir": 1
+    },
+    "step": 0,
+    "companions": [
+      {
+        "id": 2,
+        "pose": {
+          "gridId": 2,
+          "x": 7,
+          "y": 0,
+          "dir": 3
+        },
+        "home": {
+          "gridId": 2,
+          "x": 7,
+          "y": 0,
+          "dir": 3
+        },
+        "speed": 1,
+        "counter": 0
+      },
+      {
+        "id": 3,
+        "pose": {
+          "gridId": 3,
+          "x": 0,
+          "y": 0,
+          "dir": 1
+        },
+        "home": {
+          "gridId": 3,
+          "x": 0,
+          "y": 0,
+          "dir": 1
+        },
+        "speed": 2,
+        "counter": 0
+      },
+      {
+        "id": 4,
+        "pose": {
+          "gridId": 4,
+          "x": 7,
+          "y": 0,
+          "dir": 3
+        },
+        "home": {
+          "gridId": 4,
+          "x": 7,
+          "y": 0,
+          "dir": 3
+        },
+        "speed": 2,
+        "counter": 0
+      },
+      {
+        "id": 5,
+        "pose": {
+          "gridId": 5,
+          "x": 0,
+          "y": 0,
+          "dir": 1
+        },
+        "home": {
+          "gridId": 5,
+          "x": 0,
+          "y": 0,
+          "dir": 1
+        },
+        "speed": 2,
+        "counter": 0
+      },
+      {
+        "id": 6,
+        "pose": {
+          "gridId": 6,
+          "x": 7,
+          "y": 0,
+          "dir": 3
+        },
+        "home": {
+          "gridId": 6,
+          "x": 7,
+          "y": 0,
+          "dir": 3
+        },
+        "speed": 1,
+        "counter": 0
+      },
+      {
+        "id": 7,
+        "pose": {
+          "gridId": 7,
+          "x": 0,
+          "y": 0,
+          "dir": 1
+        },
+        "home": {
+          "gridId": 7,
+          "x": 0,
+          "y": 0,
+          "dir": 1
+        },
+        "speed": 1,
+        "counter": 0
+      }
+    ],
+    "nextRobotId": 8,
+    "effects": {
+      "chorus": true,
+      "echo": true
+    },
+    "robotSpeed": 1,
+    "robotCounter": 0,
+    "mutedRobots": []
+  }
+}
+
